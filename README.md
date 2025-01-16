@@ -7,9 +7,10 @@ This project utilizes YOLOv11, a state-of-the-art object detection model, to cla
 YOLOv11 (You Only Look Once version 11) is chosen for its real-time object detection capabilities and high accuracy. It excels in scenarios where quick inference and precise localization of objects are essential, making it ideal for waste segregation tasks.
 
 ## Dataset
-The dataset used in this project consists of over 9,000 images with 21 distinct classes. Each class represents a specific waste item commonly encountered in recycling processes. The classes are mapped as follows:
+The dataset used in this project consists of over 9,500+ images with 21 distinct classes. Each class represents a specific waste item commonly encountered in recycling processes. The classes are mapped as follows:
+![Image](https://github.com/user-attachments/assets/24697760-2079-4970-81b5-8a109473f636)
 
-```python
+
 CLASS_MAPPING = {
     0: 'battery',
     1: 'can',
@@ -33,14 +34,17 @@ CLASS_MAPPING = {
     19: 'straw',
     20: 'toilet_cleaner'
 }
+![Image](https://github.com/user-attachments/assets/1d32d135-4059-458b-ae21-0175c3f22731)
+
 ## How to Run
 Environment Setup: Execute environment_setup.py to set up the necessary dependencies.
 Dataset Download: Use dataset_download.py to acquire the dataset required for training and testing.
 Model Training: Train the YOLOv11 model using training.py to optimize it for waste segregation.
 Inference and Visualization: Employ model_loading.py and visualization.py to perform inference on new data and visualize the results.
-Real-time Testing
+
+## Real-time Testing
 The model has been rigorously tested in real-time environments to ensure its accuracy and efficiency in waste item detection and classification. Real-time testing validates the model's performance under various conditions and environments, enhancing its reliability for practical applications.
 
-Conclusion
+## Conclusion
 This project aims to contribute to sustainable waste management practices by automating the segregation process using advanced computer vision techniques. YOLOv11, with its robust performance and real-time capabilities, ensures accurate identification and classification of waste items, thereby facilitating efficient recycling initiatives.
 

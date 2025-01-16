@@ -37,6 +37,7 @@ CLASS_MAPPING = {
 ![Image](https://github.com/user-attachments/assets/1d32d135-4059-458b-ae21-0175c3f22731)
 
 ## How to Run
+(all the code given is sudo code)
 Environment Setup: Execute environment_setup.py to set up the necessary dependencies.
 Dataset Download: Use dataset_download.py to acquire the dataset required for training and testing.
 Model Training: Train the YOLOv11 model using training.py to optimize it for waste segregation.

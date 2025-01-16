@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Waste Segregation Using YOLOv11
 
 ## Introduction

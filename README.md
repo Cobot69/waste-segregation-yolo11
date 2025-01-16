@@ -37,6 +37,9 @@ CLASS_MAPPING = {
 }
 ![Image](https://github.com/user-attachments/assets/1d32d135-4059-458b-ae21-0175c3f22731)
 
+
+![Image](images/Screenshot 2025-01-16 190442.png)
+
 ## How to Run
 (all the code given is sudo code)
 Environment Setup: Execute environment_setup.py to set up the necessary dependencies.
